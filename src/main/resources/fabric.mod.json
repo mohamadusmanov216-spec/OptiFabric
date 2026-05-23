@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "optifabric",
+	"version": "${version}",
+	"name": "OptiFabric",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+  	"authors": [
+    	"StarTeam"
+    	],
+  	"contact": {
+    		"sources": "https://github.com/mohamadusmanov216-spec/OptiFabric",
+    		"issues": "https://github.com/mohamadusmanov216-spec/OptiFabric/issues",
+    		"email": "StarTeam-Company@yandex.ru",
+    		"discord": "https://discord.gg/t4ksPFXYZ",
+    		"telegram": "https://t.me/Yt_reving"
+    },
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.OptiFabric"
+		],
+		"client": [
+			"com.example.client.OptiFabricClient"
+		]
+	},
+	"mixins": [
+		"optifabric.mixins.json",
+		{
+			"config": "optifabric.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
