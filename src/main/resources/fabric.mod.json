@@ -1,13 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "startotemhelper",
+  "id": "optifabric",
   "version": "${version}",
-  "name": "StarTotemHelper",
+  "name": "OptiFabric",
   "description": "",
-  "authors": [],
-  "contact": {},
-  "license": "LGPL-3.0",
-  "icon": "assets/startotemhelper/icon.png",
+  "authors": [
+    	"StarTeam"
+  ],
+  "contact": {
+    	"sources": "https://github.com/mohamadusmanov216-spec/OptiFabric",
+    	"issues": "https://github.com/mohamadusmanov216-spec/OptiFabric/issues",
+    	"email": "StarTeam-Company@yandex.ru",
+    	"discord": "https://discord.gg/t4ksPFXYZ",
+    	"telegram": "https://t.me/Yt_reving"
+  },
   "environment": "*",
   "entrypoints": {
     "client": [
