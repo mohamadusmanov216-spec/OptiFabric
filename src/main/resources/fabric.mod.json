@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "startotemhelper",
+  "version": "${version}",
+  "name": "StarTotemHelper",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/startotemhelper/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.startotemhelper.client.StartotemhelperClient"
+    ],
+    "main": [
+      "dev.startotemhelper.Startotemhelper"
+    ]
+  },
+  "mixins": [
+    "startotemhelper.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
